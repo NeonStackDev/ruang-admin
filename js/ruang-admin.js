@@ -1,6 +1,6 @@
 (function($) {
-  "use strict"; // Start of use strict
-
+  //"use strict"; // Start of use strict
+  
   // Toggle the side navigation
   $("#sidebarToggle, #sidebarToggleTop").on('click', function(e) {
     $("body").toggleClass("sidebar-toggled");
@@ -66,6 +66,9 @@ $(document).ready(function () {
   $('#modalCenter').click(function () {
     $('.modal').modal('show');
   });
+
+ 
+  
 });
 
 // Popover Javascript
